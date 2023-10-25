@@ -1,0 +1,182 @@
+.background-container {
+  font-family: Roboto;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f4fbff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.login-content {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 74px 10px;
+}
+.login-content div {
+  margin: 0 auto;
+}
+.login-content div h2 {
+  text-align: center;
+  margin-bottom: 56px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.login-text {
+  width: 290px;
+  color: #646464;
+  font-size: 16px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  width: 290px;
+}
+
+.login-form button {
+  border: none;
+  border-radius: 6px;
+  background-color: #72a9fc;
+  color: var(--white);
+  height: 50px;
+  font-family: 'Roboto';
+  margin-top: 68px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.login-form button:hover {
+  background-color: #2672e4;
+}
+
+.login-input {
+  margin-top: 24px;
+  font-size: 18px;
+  font-weight: 500;
+  height: 40px;
+  width: 84%;
+}
+
+.login-input input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding-right: 35px;
+  padding-left: 10px;
+  border: 1px solid #d6d6d6;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.login-input input::placeholder {
+  color: #acacac;
+}
+
+.mail {
+  margin-top: 28px;
+}
+
+.pass {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.password-eye {
+  position: relative;
+  left: 255px;
+  bottom: 32px;
+  cursor: pointer;
+}
+
+.errorText {
+  color: #ff6060;
+  margin-top: 35px;
+}
+
+.errorInput {
+  border: 1px solid red;
+}
+
+.message {
+  margin-top: 10px;
+  height: 10px;
+  font-size: 16px;
+}
+
+.messageNotFound {
+  color: #ff6060;
+}
+
+@media (min-width: 480px) {
+  .login-content {
+    margin: 84px 24px;
+  }
+  .login-text {
+    width: 385px;
+  }
+  .login-form {
+    width: 384px;
+  }
+  .login-input {
+    width: 90%;
+  }
+  .password-eye {
+    left: 345px;
+  }
+}
+
+@media (min-width: 768px) {
+  .login-content {
+    margin: 95px 113px;
+  }
+  .login-content div h2 {
+    margin-bottom: 56px;
+    font-size: 28px;
+  }
+  .login-text {
+    width: 495px;
+    font-size: 16px;
+  }
+  .login-form {
+    width: 494px;
+  }
+  .login-form button {
+    font-size: 18px;
+  }
+  .login-input {
+    height: 47px;
+  }
+  .password-eye {
+    left: 460px;
+    bottom: 34px;
+  }
+  .message {
+    top: 53%;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .login-content {
+    margin: 95px 203px;
+  }
+  .login-text {
+    width: 430px;
+  }
+  .login-form {
+    width: 430px;
+  }
+  .password-eye {
+    left: 397px;
+  }
+}

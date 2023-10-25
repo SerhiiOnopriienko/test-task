@@ -1,0 +1,32 @@
+.modalContainer {
+  position: absolute;
+  width: 50vw;
+  height: 635px;
+  background-color: rgba(153, 153, 153);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  left: 25%;
+}
+
+.modalContainer svg {
+  align-self: end;
+  margin-right: 20px;
+}
+
+.createUserForm {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+}
+
+.createUserForm input {
+  height: 25px;
+  border-radius: 6px;
+}
+
+.errorMessage {
+  color: rgb(106, 90, 205);
+}
