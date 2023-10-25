@@ -37,3 +37,7 @@ export type TAction = {
   type: string | undefined;
   payload: any;
 };
+
+export type TSVGProps = {
+  onClick: () => void;
+};
